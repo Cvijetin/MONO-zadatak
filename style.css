@@ -1,0 +1,246 @@
+*{
+	font-family: calibri;
+}
+.head{
+	overflow: hidden;
+	background: url('images/banner.jpg') center center no-repeat scroll;
+	margin: 0;
+	padding: 0;
+}
+.first-header{
+	padding-top: 3%;
+	padding-bottom: 4%;
+}
+hr{
+	size: 1px;
+	margin: 0 16% 0 16%;
+	border-color: grey;
+}
+.logo{
+	float: left;
+	margin-left: 16%;
+}
+.menu{
+	float: right;
+	padding-right: 16%;
+}
+.menu-list{
+	list-style: none;
+	padding-top: 5px;
+	margin: 0;
+}
+.menu-item{
+	display: inline;
+	font-size: 15px;
+	color: grey;
+	padding: 10px;
+	font-family: 'Roboto'
+}
+.title{
+	text-align: center;
+	color: white;
+	padding-top: 5%;
+}
+.title-description{
+	text-align: center;
+}
+h1{
+	padding: 4% 30% 0% 32%
+}
+.title-text{
+	text-align: center;
+	color: white;
+	padding: 0% 25% 0% 27%;
+}
+.find-out-more{
+	text-align: center;
+	padding-bottom: 8%;
+}
+.button{
+	background-color: #E84B27; 
+    border: none;
+    color: white;
+    padding: 13px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 10px;
+	font-family: 'Roboto'
+}
+
+h2{
+	font-size: 12px;
+}
+
+.icons{
+	margin: 0 14% 0 14%;
+	display: block;
+	padding: 5%;
+	overflow: hidden;
+	
+}
+.icon{
+	width: 20%;
+	float: left;
+	padding: 0 6%;
+}
+.icon-title{
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+	padding: 10% 0;
+	font-weight: bold;
+}
+.icon-text{
+	text-align: center;
+}
+/*ikone*/
+.text-primary {
+  color: #f05f40;
+  padding: 0 0 10% 30%;
+}
+.picture-slider{
+	overflow: hidden;
+	padding-bottom: 5%;
+}
+
+.picture-slider img{
+	width: 25%;
+	height: 220px;
+	display: block;
+	float: left;
+}
+.employes-description{
+	margin: 0 12% 0 12%;
+	overflow: hidden;
+	padding-bottom: 5%;
+}
+.employe{
+	float: left;
+	width: 25%;
+}
+.employe img{
+	width: 80%;
+}
+.status{
+	color: red;
+}
+.design-quote{
+	overflow: hidden;
+	background-color: #432750;
+}
+.picture{
+	float: left;
+	width: 50%;
+}
+.qoute-text{
+	float: left;
+	width: 50%;
+	max-height: 100%;
+}
+.picture img{
+	max-width: 100%;
+}
+.latin-text{
+	padding: 10% 35% 5% 5%;
+	font-size: 30px;
+	color: white;
+}
+.name{
+	padding-left: 5%;
+	font-size: 15px;
+	color: white;
+	padding-bottom: 6.1%;
+}
+.download{
+	text-align: center;
+	padding-top: 3%;
+	padding-bottom: 5%;
+}
+.download-text{
+	font-size: 30px;
+}
+.benith-download{
+	font-size: 15px;
+}
+.download-button{
+	background-color: #E84B27; 
+    border: none;
+    color: white;
+    padding: 15px 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+	font-size: 10px;
+	font-family: 'Roboto'
+}
+footer{
+	background-color: #112142;
+}
+.information{
+	overflow: hidden;
+	margin: 0 10%;
+	padding-bottom: 2%;
+}
+.location-information{
+	float: left;
+	width: 20%;
+	text-align: center;
+	padding-left: 10%;
+	padding-top: 4%;
+}
+.copyright{
+	background-color: #0E1639;
+	text-align: center;
+	padding-bottom: 1%;
+	padding-top: 1%
+}
+.location{
+	color: white;
+}
+.adress{
+	color: #A392B0;
+}
+.picture-slider img:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+     transform: scale(1.3);
+}
+@media only screen and (max-width: 900px) {
+.picture-slider img{
+	width: 50%;
+	height: 50%;
+	display: block;
+	float: left;
+}
+.picture {
+	float: left;
+	width: 100%;
+}
+.quote-text {
+	float: right;
+	width: 100%;
+	color: white;
+}
+hr{
+	visibility: hidden;
+}
+.menu {
+	float: left;
+	color: white;
+	margin: 3% 0 0;
+}
+.employe {
+	float: left;
+	width: 40%;
+	padding: 2%;
+}
+.employe img {
+	width: 80%;
+	padding: 2%;
+}
+}
